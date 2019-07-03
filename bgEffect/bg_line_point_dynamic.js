@@ -140,7 +140,7 @@ function Intersect2lines(l1, l2) {
 function markPoint(p) {
   ctx.beginPath();
   ctx.fillStyle = "#fff"; // 设置线条上小圆点颜色
-  ctx.arc(p.x, p.y, 5, 0, 5 * Math.PI); // 5表示小圆点半径 可以自行修改
+  ctx.arc(p.x, p.y, 3, 0, 3 * Math.PI); // 5表示小圆点半径 可以自行修改
   ctx.fill();
 }
 
